@@ -1,0 +1,134 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 12%;
+}
+p,
+span {
+  color: #979797;
+}
+.home-text p,
+.home-text span {
+  padding: 12px 0;
+}
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+}
+.text-center h1 {
+  padding: 15px 0;
+}
+.circle {
+  width: 700px;
+  height: 700px;
+  border: 1px dashed #5db9c7;
+  border-radius: 50%;
+  margin: 125px auto;
+  position: relative;
+}
+.circle .first-img {
+  position: absolute;
+  left: 50%;
+  top: 22px;
+  transform: translate(-50%, -50%);
+}
+.scnd-img {
+  position: absolute;
+  right: -155px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.thrd-img {
+  position: absolute;
+  left: 50%;
+  bottom: -95px;
+  transform: translate(-50%, -50%);
+}
+.frth-img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+  transform: translate(-50%, -50%);
+  background: #5db9c7;
+}
+.circle .text {
+  vertical-align: middle;
+  display: grid;
+  height: 700px;
+}
+.design-services {
+  background: #5db9c7;
+  padding: 75px 12%;
+  text-align: center;
+}
+.design-services h1 {
+  color: #fff;
+}
+.design-pill {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 12px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #5db9c7;
+}
+.user-experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 75px;
+  padding: 0 12%;
+}
+
+.user-experience h1 {
+  padding: 20px 0;
+}
+.user-experience > div {
+  margin-top: 25px;
+}
+.user-experience h3 {
+  padding-bottom: 20px;
+}
+.behave {
+  padding-bottom: 20px;
+}
+.behave span {
+  margin: 0 80px 0 0;
+}
+.person span {
+  margin: 0 55px 0 0;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: 0 auto;
+}
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+label {
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 40px;
+}
+.form > input {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.form > button {
+  height: 30px;
+  background: black;
+  color: white;
+}
